@@ -1,0 +1,63 @@
+import 'package:Flutter_UI/model/profile3/profile3_model.dart';
+
+class Profile3Provider{
+  static ProfileModel3 getProfile(){
+    return ProfileModel3(
+      user: User(
+        name: "Mohamed Abdel Nasser",
+        address: "Elmenofeya-Sadat City",
+        about: "Whether online or in person, connections are the foundation of the professional world. In many cases, making a great first impression is crucial to solidifying a professional relationship. As a result, it is important to have a quick and effective pitch about your experience, aims and relevant personal details.",
+        followers: 2318,
+      following: 364,
+      frends: 175,
+      ),
+      photos: [
+        "assets/images/photos/1.jpg",
+        "assets/images/photos/2.jpeg",
+        "assets/images/photos/3.jpeg",
+        "assets/images/photos/4.jpeg",
+        "assets/images/photos/5.jpg",
+        "assets/images/photos/6.jpg",
+        "assets/images/photos/7.jpeg",
+        "assets/images/photos/8.jpeg",
+        "assets/images/photos/9.jpeg",
+        "assets/images/photos/10jpeg",
+        "assets/images/photos/11.jpeg",
+        "assets/images/photos/12.jpeg",
+        "assets/images/photos/13.jpeg",
+        "assets/images/photos/14.jpeg",
+        "assets/images/photos/15.jpeg",
+        "assets/images/photos/16.jpeg",
+        "assets/images/photos/17.jpg",
+        "assets/images/photos/18.jpg",
+        "assets/images/photos/19.jpg",
+        "assets/images/photos/20.jpg",
+        "assets/images/photos/21.jpg",
+        "assets/images/photos/22.jpg",
+        "assets/images/photos/23.jpg",
+      ],
+      profileImages: [
+        "assets/images/photos/profile1.jpg",
+        "assets/images/photos/profile2.jpg",
+        "assets/images/photos/profile3.jpg",
+        "assets/images/photos/profile4.jpg",
+        "assets/images/photos/profile5.jpg",
+        "assets/images/photos/profile6.jpeg",
+        "assets/images/photos/profile7.jpg",
+        "assets/images/photos/profile8.jpg",
+        "assets/images/photos/profile9.jpg",
+        "assets/images/photos/profile10.jpeg",
+        "assets/images/photos/profile11.jpg",
+        "assets/images/photos/profile12.jpg",
+        "assets/images/photos/profile13.jpeg",
+        "assets/images/photos/profile14.jpeg",
+        "assets/images/photos/profile15.jpeg",
+        "assets/images/photos/profile16.jpeg",
+        "assets/images/photos/profile17.jpg",
+        "assets/images/photos/profile18.jpg",
+        "assets/images/photos/profile19.jpeg",
+        "assets/images/photos/profile20.jpg",
+      ],
+    );
+  }
+}
